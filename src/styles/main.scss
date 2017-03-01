@@ -1,15 +1,41 @@
 *{
 	box-sizing: border-box;
+	margin: 0;
 }
 
 body{
-	background: limegreen;
+	background: #ECF0F1;
 }
 
-$txt-color: maroon;
-
-h2{
-	color: $txt-color;
-	border-bottom: 4px solid $txt-color;
+.inline {
+	display: inline-block;
+	padding: 4px;
+	margin: 4px;
 }
 
+.container {
+  display: inline-block;
+  background: #86E2D5;
+  width: 380px;
+  height: 200px;
+	margin: 6px;
+	font-size: 12px;
+	padding: 20px;
+}
+
+h3 {
+	padding: 10px;
+
+}
+
+h1 {
+	color: #2ECC71;
+}
+h4, h5 {
+	margin-left: 8px;
+	padding: 4px;
+}
+
+li {
+	padding: 2px;
+}
